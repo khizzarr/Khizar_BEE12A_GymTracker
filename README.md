@@ -26,3 +26,6 @@ OpenCV will serve as the primary library for computer vision tasks, particularly
 Data collection involves capturing workout sessions with diverse exercises and body movements. Analysis will focus on the accuracy of pose estimation, real-time performance, and the overall user experience.
 ## Validation and Testing:
 Validation will be conducted through user testing, assessing the system's effectiveness in providing accurate pose estimations and valuable insights during workout sessions. 
+## Block Diagram
+![image](https://github.com/khizzarr/Khizar_BEE12A_GymTracker/assets/153348914/4f192bd0-978f-4800-8969-529891b4a192)
+
