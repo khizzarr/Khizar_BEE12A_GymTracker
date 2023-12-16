@@ -62,5 +62,6 @@ for lndmrk in mp_pose.PoseLandmark:
 
 #calculating angles
 landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER.value].visibility
+landmarks[mp_pose.PoseLandmark.LEFT_ELBOW.value]
 
 
