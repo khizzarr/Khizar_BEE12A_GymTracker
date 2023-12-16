@@ -61,4 +61,6 @@ for lndmrk in mp_pose.PoseLandmark:
     print(lndmrk)
 
 #calculating angles
+landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER.value].visibility
+
 
