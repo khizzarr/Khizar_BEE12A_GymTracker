@@ -59,9 +59,8 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
 len(landmarks)
 for lndmrk in mp_pose.PoseLandmark:
     print(lndmrk)
-
-#calculating angles
 landmarks[mp_pose.PoseLandmark.LEFT_SHOULDER.value].visibility
 landmarks[mp_pose.PoseLandmark.LEFT_ELBOW.value]
+landmarks[mp_pose.PoseLandmark.LEFT_WRIST.value]
 
 
