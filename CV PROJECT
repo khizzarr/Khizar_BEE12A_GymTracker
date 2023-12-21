@@ -84,5 +84,5 @@ shoulder, elbow, wrist
 calculate_angle(shoulder, elbow, wrist)
 
 tuple(np.multiply(elbow, [640, 480]).astype(int))
-cap = cv2.VideoCapture(0)
-## Setup mediapipe instance
+
+
