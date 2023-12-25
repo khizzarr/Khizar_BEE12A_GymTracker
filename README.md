@@ -10,9 +10,7 @@ Umer Amer Khan (333275)
 
 
 
-Sure, here's a rephrased version of the provided text:
 
----
 
 ### Description
 
