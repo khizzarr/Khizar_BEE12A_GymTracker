@@ -5,7 +5,7 @@ mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 
 #THE VIDEO FEED
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)    
 while cap.isOpened():
     ret, frame = cap.read()
     cv2.imshow('Checking the video feed', frame)
