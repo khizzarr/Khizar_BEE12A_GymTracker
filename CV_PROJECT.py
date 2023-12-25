@@ -8,7 +8,7 @@ mp_pose = mp.solutions.pose
 cap = cv2.VideoCapture(0)
 while cap.isOpened():
     ret, frame = cap.read()
-    cv2.imshow('Mediapipe Feed', frame)
+    cv2.imshow('Checking the video feed', frame)
     
     if cv2.waitKey(10) & 0xFF == ord('q'):
         break
@@ -47,7 +47,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                                 mp_drawing.DrawingSpec(color=(245,66,230), thickness=2, circle_radius=2) 
                                  )               
         
-        cv2.imshow('Mediapipe Feed', image)
+        cv2.imshow('Checking Pose Landmarks', image)
 
         if cv2.waitKey(10) & 0xFF == ord('q'):
             break
@@ -130,7 +130,7 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
                                 mp_drawing.DrawingSpec(color=(245,66,230), thickness=2, circle_radius=2) 
                                  )               
         
-        cv2.imshow('Gym Tracker', image)
+        cv2.imshow('Calculating Angles', image)
 
         if cv2.waitKey(10) & 0xFF == ord('q'):
             break
